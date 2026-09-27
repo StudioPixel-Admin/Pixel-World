@@ -8,6 +8,7 @@ license. All rights are reserved under the proprietary license in [LICENSE](LICE
 For launch and operational paperwork, see:
 - [NOTICE](NOTICE)
 - [docs/LEGAL.md](docs/LEGAL.md)
+- [docs/PRIVATE_LAUNCH_GUIDE.md](docs/PRIVATE_LAUNCH_GUIDE.md)
 - [docs/PRIVACY_POLICY.md](docs/PRIVACY_POLICY.md)
 - [docs/TERMS_OF_SERVICE.md](docs/TERMS_OF_SERVICE.md)
 - [docs/THIRD_PARTY_LICENSES.md](docs/THIRD_PARTY_LICENSES.md)

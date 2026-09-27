@@ -57,6 +57,9 @@ Before a public or commercial launch, complete the following:
 - confirm trademark registrations and branding protection
 - verify age-rating and classification requirements for the target market
 - maintain a third-party software inventory
+- keep all internal launch data, credentials, URLs, and beta access private
+- do not publish production metadata or private build data to public storefronts
+- review the private launch guidance in [PRIVATE_LAUNCH_GUIDE.md](PRIVATE_LAUNCH_GUIDE.md)
 
 ## Contact and approvals
 Use the following placeholders until the project has a real legal contact:
