@@ -1,0 +1,34 @@
+# Local snapshots
+/.snapshots/
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Native build output and downloaded dependencies
+/build*/
+/out/
+/.cache/
+/.vs/
+*.user
+*.suo
+*.pdb
+*.ilk
+
+# Managed builds
+**/bin/
+**/obj/
+
+# Local worlds, settings, captures and profiling output
+/userdata/
+/captures/
+/test-results/
+imgui.ini
+*.log

@@ -1,0 +1,9 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {"name":"release","displayName":"Desktop release (Ninja)","generator":"Ninja","binaryDir":"${sourceDir}/build","cacheVariables":{"CMAKE_BUILD_TYPE":"Release","BUILD_TESTING":"ON"}},
+    {"name":"core","displayName":"CPU tests without Vulkan","generator":"Ninja","binaryDir":"${sourceDir}/build-core","cacheVariables":{"CMAKE_BUILD_TYPE":"Release","PIXEL_BUILD_GAME":"OFF","BUILD_TESTING":"ON"}}
+  ],
+  "buildPresets":[{"name":"release","configurePreset":"release"},{"name":"core","configurePreset":"core"}],
+  "testPresets":[{"name":"release","configurePreset":"release","output":{"outputOnFailure":true}},{"name":"core","configurePreset":"core","output":{"outputOnFailure":true}}]
+}
